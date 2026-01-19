@@ -13,7 +13,19 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Stash - Save to your read-it-later app"
+    "default_title": "Stash - Save to your read-it-later app",
+    "default_icons": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "background": {
     "service_worker": "background.js"
